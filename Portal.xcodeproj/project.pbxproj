@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7372206267EB01E00F5E15A /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7372205267EB01E00F5E15A /* DismissSegue.swift */; };
+		D737220A267EB5C200F5E15A /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7372209267EB5C200F5E15A /* background.jpg */; };
 		D7440244267E726000B118FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7440243267E726000B118FB /* AppDelegate.swift */; };
 		D7440246267E726000B118FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7440245267E726000B118FB /* SceneDelegate.swift */; };
 		D7440248267E726000B118FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7440247267E726000B118FB /* ViewController.swift */; };
 		D744024B267E726000B118FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7440249267E726000B118FB /* Main.storyboard */; };
-		D744024E267E726000B118FB /* Portal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D744024C267E726000B118FB /* Portal.xcdatamodeld */; };
 		D7440250267E726100B118FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D744024F267E726100B118FB /* Assets.xcassets */; };
 		D7440253267E726100B118FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7440251267E726100B118FB /* LaunchScreen.storyboard */; };
+		D7722172268516A1000C756D /* Exercise+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7722170268516A1000C756D /* Exercise+CoreDataClass.swift */; };
+		D7722173268516A1000C756D /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7722171268516A1000C756D /* Exercise+CoreDataProperties.swift */; };
+		D7AE3EF326851EB8006B9850 /* Portal.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = D702198B2683E367007CC1FE /* Portal.xcdatamodeld */; };
+		D7AE3EF52685234C006B9850 /* Word500ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AE3EF42685234C006B9850 /* Word500ControllerViewController.swift */; };
+		D7B775E026814ED3003ABA31 /* Words500Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B775DF26814ED3003ABA31 /* Words500Model.swift */; };
+		D7B775E226814F96003ABA31 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B775E126814F96003ABA31 /* WordModel.swift */; };
+		D7FE7A37267EA60A002161F7 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FE7A36267EA60A002161F7 /* ChoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D702198C2683E367007CC1FE /* Portal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Portal.xcdatamodel; sourceTree = "<group>"; };
+		D7372205267EB01E00F5E15A /* DismissSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		D7372209267EB5C200F5E15A /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		D7440240267E726000B118FB /* Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7440243267E726000B118FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7440245267E726000B118FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D7440247267E726000B118FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D744024A267E726000B118FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D744024D267E726000B118FB /* Portal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Portal.xcdatamodel; sourceTree = "<group>"; };
 		D744024F267E726100B118FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7440252267E726100B118FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7440254267E726100B118FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7722170268516A1000C756D /* Exercise+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D7722171268516A1000C756D /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D7AE3EF42685234C006B9850 /* Word500ControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word500ControllerViewController.swift; sourceTree = "<group>"; };
+		D7B775DF26814ED3003ABA31 /* Words500Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words500Model.swift; sourceTree = "<group>"; };
+		D7B775E126814F96003ABA31 /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
+		D7FE7A36267EA60A002161F7 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,8 @@
 		D7440237267E726000B118FB = {
 			isa = PBXGroup;
 			children = (
+				D7722170268516A1000C756D /* Exercise+CoreDataClass.swift */,
+				D7722171268516A1000C756D /* Exercise+CoreDataProperties.swift */,
 				D7440242267E726000B118FB /* Portal */,
 				D7440241267E726000B118FB /* Products */,
 			);
@@ -61,11 +79,17 @@
 				D7440243267E726000B118FB /* AppDelegate.swift */,
 				D7440245267E726000B118FB /* SceneDelegate.swift */,
 				D7440247267E726000B118FB /* ViewController.swift */,
-				D7440249267E726000B118FB /* Main.storyboard */,
+				D7FE7A36267EA60A002161F7 /* ChoiceViewController.swift */,
+				D7AE3EF42685234C006B9850 /* Word500ControllerViewController.swift */,
+				D7372205267EB01E00F5E15A /* DismissSegue.swift */,
+				D7B775DF26814ED3003ABA31 /* Words500Model.swift */,
+				D7B775E126814F96003ABA31 /* WordModel.swift */,
+				D7372209267EB5C200F5E15A /* background.jpg */,
 				D744024F267E726100B118FB /* Assets.xcassets */,
+				D7440249267E726000B118FB /* Main.storyboard */,
 				D7440251267E726100B118FB /* LaunchScreen.storyboard */,
 				D7440254267E726100B118FB /* Info.plist */,
-				D744024C267E726000B118FB /* Portal.xcdatamodeld */,
+				D702198B2683E367007CC1FE /* Portal.xcdatamodeld */,
 			);
 			path = Portal;
 			sourceTree = "<group>";
@@ -127,7 +151,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7AE3EF326851EB8006B9850 /* Portal.xcdatamodeld in Resources */,
 				D7440253267E726100B118FB /* LaunchScreen.storyboard in Resources */,
+				D737220A267EB5C200F5E15A /* background.jpg in Resources */,
 				D7440250267E726100B118FB /* Assets.xcassets in Resources */,
 				D744024B267E726000B118FB /* Main.storyboard in Resources */,
 			);
@@ -141,9 +167,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7440248267E726000B118FB /* ViewController.swift in Sources */,
-				D744024E267E726000B118FB /* Portal.xcdatamodeld in Sources */,
+				D7B775E026814ED3003ABA31 /* Words500Model.swift in Sources */,
+				D7AE3EF52685234C006B9850 /* Word500ControllerViewController.swift in Sources */,
+				D7FE7A37267EA60A002161F7 /* ChoiceViewController.swift in Sources */,
 				D7440244267E726000B118FB /* AppDelegate.swift in Sources */,
+				D7372206267EB01E00F5E15A /* DismissSegue.swift in Sources */,
+				D7722172268516A1000C756D /* Exercise+CoreDataClass.swift in Sources */,
+				D7722173268516A1000C756D /* Exercise+CoreDataProperties.swift in Sources */,
 				D7440246267E726000B118FB /* SceneDelegate.swift in Sources */,
+				D7B775E226814F96003ABA31 /* WordModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -347,12 +379,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D744024C267E726000B118FB /* Portal.xcdatamodeld */ = {
+		D702198B2683E367007CC1FE /* Portal.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D744024D267E726000B118FB /* Portal.xcdatamodel */,
+				D702198C2683E367007CC1FE /* Portal.xcdatamodel */,
 			);
-			currentVersion = D744024D267E726000B118FB /* Portal.xcdatamodel */;
+			currentVersion = D702198C2683E367007CC1FE /* Portal.xcdatamodel */;
 			path = Portal.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
