@@ -1,8 +1,6 @@
 //
 //  Exercise+CoreDataClass.swift
-//  Portal
-//
-//  Created by Lev Ivanov on 24.06.2021.
+//  Created by  on 24.06.2021.
 //
 //
 
